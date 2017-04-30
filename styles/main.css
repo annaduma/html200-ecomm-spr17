@@ -11,7 +11,7 @@ p {
 
 /* TODO: size images manually so this is not necessary */
 img {
-  max-height: 20rem;
+  max-height: 10rem;
 }
 
 /***************** NAV *****************/
@@ -42,12 +42,9 @@ nav li {
 }
 
 /**************** HERO *****************/
-header img{
-  margin: 1rem;
-}
-
 header img {
   max-height: 6rem;
+  margin: 1rem;
 }
 
 h1 .logo-w {
@@ -56,8 +53,9 @@ h1 .logo-w {
 
 header h1 {
   margin: 1rem;
+  color: #4286f4;
+  font-weight: bold;
 }
-
 /**************** ASIDE ****************/
 
 input[type="submit"] {
@@ -70,13 +68,12 @@ input[type="submit"] {
 }
 
 aside {
-  margin: auto;
+  margin-left: 1rem;
 }
 
 /*********** PRODUCTS SECTION ***********/
-
 section {
-  padding: 0 .75rem;
+  padding: 0 0.75rem;
 }
 
 h2 {
@@ -95,10 +92,10 @@ h3 {
 .item-container {
   display: flex;
   flex-wrap: wrap;
-  margin: 1rem;
-  padding: 1rem;
 }
 
-.col {
-  background-color:
+div[class^=col-] {
+  border: 1px solid black;
+  margin: 0.5rem;
+  padding: 1rem;
 }
