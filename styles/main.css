@@ -74,13 +74,8 @@ aside {
 }
 
 /*********** PRODUCTS SECTION ***********/
-section {
-  padding: 0 0.75rem;
-}
-
 h2 {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   padding: 1.5rem;
   font-size: 2rem;
   color: #2d2d2d;
@@ -88,7 +83,7 @@ h2 {
 
 h3 {
   font-size: 1.2rem;
-  text-align: center;
+  text-align: center
   color: #2d2d2d;
   padding: 0.5rem;
   font-weight: bold;
@@ -97,7 +92,7 @@ h3 {
 .item-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .bordered {
