@@ -79,9 +79,10 @@ section {
 }
 
 h2 {
+  display: flex;
+  justify-content: center;
   padding: 1.5rem;
   font-size: 2rem;
-  text-align: center;
   color: #2d2d2d;
 }
 
@@ -90,6 +91,7 @@ h3 {
   text-align: center;
   color: #2d2d2d;
   padding: 0.5rem;
+  font-weight: bold;
 }
 
 .item-container {
@@ -105,6 +107,6 @@ h3 {
 div[class^=col-] {
   text-align: center;
   margin: 0.5rem;
-  width: 18rem;
-  height: 25rem;
+  width: 22rem;
+  height: 22rem;
 }
