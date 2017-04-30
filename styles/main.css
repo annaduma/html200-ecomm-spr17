@@ -20,6 +20,27 @@ nav a:hover {
   text-decoration: underline;
 }
 
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  padding: 1rem;
+  color: white;
+}
+
+.main-nav {
+  background-color: #4286f4;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav li {
+  color: white;
+}
+
 /**************** HERO *****************/
 
 header img {
