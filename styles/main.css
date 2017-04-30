@@ -56,6 +56,10 @@ header h1 {
   color: #4286f4;
   font-weight: bold;
 }
+
+.heading {
+  display: inline;
+}
 /**************** ASIDE ****************/
 
 input[type="submit"] {
@@ -68,16 +72,15 @@ input[type="submit"] {
 }
 
 aside {
-  margin-left: 1rem;
+  margin: 1rem;
 }
-
 /*********** PRODUCTS SECTION ***********/
 section {
   padding: 0 0.75rem;
 }
 
 h2 {
-  padding-top: 1.5rem;
+  padding: 1.5rem;
   font-size: 2rem;
   text-align: center;
   color: #2d2d2d;
@@ -87,6 +90,7 @@ h3 {
   font-size: 1.2rem;
   text-align: center;
   color: #2d2d2d;
+  padding: 0.5rem;
 }
 
 .item-container {
@@ -94,8 +98,13 @@ h3 {
   flex-wrap: wrap;
 }
 
-div[class^=col-] {
+.bordered {
   border: 1px solid black;
-  margin: 0.5rem;
-  padding: 1rem;
+}
+
+div[class^="col-"] {
+  text-align: center;
+  margin: 1rem;
+  width: 18rem;
+  height: 25rem;
 }
