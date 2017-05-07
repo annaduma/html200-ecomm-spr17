@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-size: 100%;
   font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
@@ -9,9 +15,8 @@ p {
   color: #2d2d2d;
 }
 
-/* TODO: size images manually so this is not necessary */
 img {
-  max-height: 10rem;
+  max-width: 100%;
 }
 
 /***************** NAV *****************/
@@ -89,20 +94,20 @@ h3 {
   font-weight: bold;
 }
 
-.item-container {
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: column;
-  justify-content: center;
+div {
+  display: block;
 }
 
-.bordered {
-  border: 1px solid black;
+.item-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 
 div[class^=col-] {
   text-align: center;
-  margin: 0.5rem;
-  width: 22rem;
-  height: 22rem;
+  border: 1px solid black;
+  max-width: 15rem;
+  max-height: 25rem;
+  margin-bottom: 1rem;
 }
