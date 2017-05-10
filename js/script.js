@@ -56,3 +56,18 @@ function capture () {
 }
 
 // Cart array //
+var cart = [
+  {name: "Reversible Plaid", price: 26.99}
+  {name: "Fringed Plaid", price: 18.99}
+  {name: "Multi Color", price: 22.99}
+  {name: "Northern Lights", price: 29.99}
+  {name: "Ombre Infinity", price: 11.99}
+  {name: "Ashby Twill", price: 70.99}
+  {name: "Wool Cable Knit", price: 49.99}
+  {name: "Etro Paisley-Print Silk", price: 26.99}
+]
+
+function clickedButton() {
+  event.preventDefault();
+  console.log (document.cart.length)
+}
