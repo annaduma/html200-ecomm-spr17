@@ -67,7 +67,6 @@ var cart = [
   {name: "Etro Paisley-Print Silk", price: 26.99}
 ]
 
-function clickedButton() {
-  event.preventDefault();
+function addToCart() {
   console.log (document.cart.length)
 }
