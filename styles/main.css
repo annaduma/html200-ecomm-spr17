@@ -115,3 +115,11 @@ div {
 }
 
 /**************** MEDIA QUERIES ****************/
+
+@media (max-width: 681px) {
+  p {color: red;}
+}
+
+@media (max-width: 681px) {
+	Nav li {display: block; width: 100%; text-align: center; border-bottom: 1px solid white }
+}
