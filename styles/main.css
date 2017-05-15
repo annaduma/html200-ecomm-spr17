@@ -117,9 +117,13 @@ div {
 /**************** MEDIA QUERIES ****************/
 
 @media (max-width: 681px) {
-  p {color: red;}
+  p {font-weight: bold;}
 }
 
 @media (max-width: 681px) {
-	Nav li {display: block; width: 100%; text-align: center; border-bottom: 1px solid white }
+	Nav li {display: block; width: 100%; text-align: center;}
+}
+
+@media (max-width: 681px) {
+	aside {display: block; width: 100%; text-align: center;}
 }
