@@ -70,13 +70,9 @@ Lesson 09:
 Each weekly assignment will be graded independently. There will not be a final grade for the entire project.
 
 ## Testing
-Using Atom's Live Server plugin to display the HTML and CSS code on my browser, I was able to see that my code functioned correctly in a number of browsers. The site appeared responsive in Google Chrome when sized to different device sizes. The site invtes a user to join the mailing list for our ecommerce website. Console.log successfully delivers a message to the user once their email is entered. This was tested in the console of Google Chrome.
+Using Atom's Live Server plugin to display the HTML and CSS code on my browser, I was able to see that my code functioned correctly in a number of browsers. The site appeared responsive in Google Chrome when sized to different device sizes. The site invites a user to join the mailing list for our ecommerce website. Console.log successfully delivers a message to the user once their email is entered. This was tested in the console of Google Chrome.
 
 As of the most recent commit, the cart total reflects the contents within when a product is added or removed from the cart. To test for this, I ensured the array accurately represented all products available on the site, including each product's price. A function was created so that it added a product to the cart when the user clicked the "+" button, and removed the item from the cart if the user clicked the "-" button. Using console.log, I was able to see that the function was accurately counting the length of the cart when a new product was added or removed.
-Testing was completed using console.log in Google Chrome, to ensure the function was working as necessary.
+Testing was completed using console.log in Google Chrome, to ensure the function was working as expected. The next steps would be to write JavaScript to display the number of products in the cart to the user at the top of the page as they add and remove items. Please also add a friendly message to the users when they hit "submit" on the form handler.
 
-The website was mainly tested using Google Chrome, but was tested in other browsers throughout the website-building process. 
-
-
-
-[update this section with information about the testing steps you took to ensure site quality]
+The website was mainly tested using Google Chrome, but was tested in other browsers throughout the website-building process. Thank you for your contributions to the website.
